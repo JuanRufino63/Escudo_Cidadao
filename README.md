@@ -54,7 +54,7 @@ escudo_cidadao_gs/
 ├── ml/
 │   ├── notebook_escudo_cidadao.ipynb  # executado, com gráficos
 │   ├── RELATORIO_ML.md
-│   ├── RELATORIO_ML.pdf  # PDF com os RMs corrigidos
+│   ├── RELATORIO_ML.pdf  # versão no GitHub ainda precisa ser substituída
 │   ├── ANEXO_GRAFICOS.md
 │   ├── figuras/             # 8 gráficos documentados
 │   ├── requirements.txt
@@ -88,6 +88,6 @@ Trabalho acadêmico desenvolvido para a Global Solution FIAP 2026.2. Integrantes
 | Paulo Henrique Monteiro Golovanevsky | 555300 |
 | Pedro Henrique Silva Batista | 558137 |
 
-O relatório principal está em [`ml/RELATORIO_ML.md`](ml/RELATORIO_ML.md) e a coleção completa de gráficos em [`ml/ANEXO_GRAFICOS.md`](ml/ANEXO_GRAFICOS.md). **O arquivo PDF e o relatório Markdown utilizam os mesmos RMs corrigidos.**
+O relatório principal está em [`ml/RELATORIO_ML.md`](ml/RELATORIO_ML.md) e a coleção completa de gráficos em [`ml/ANEXO_GRAFICOS.md`](ml/ANEXO_GRAFICOS.md). **O relatório Markdown já utiliza os RMs corrigidos. O PDF do repositório ainda precisa ser substituído pela versão corrigida.**
 
 Dataset: *PhiUSIIL Phishing URL Dataset*, UCI Machine Learning Repository (2024), https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset. Licença: CC BY 4.0.
