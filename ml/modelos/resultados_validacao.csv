@@ -1,0 +1,3 @@
+Modelo,Melhor F1 na validação,Melhores parâmetros,Combinações avaliadas
+Com HTTPS,0.9935499434399193,"{'max_depth': 14, 'min_samples_leaf': 4, 'n_estimators': 80}",12
+Sem HTTPS,0.8087482956706195,"{'max_depth': 14, 'min_samples_leaf': 4, 'n_estimators': 80}",12
