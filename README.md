@@ -4,6 +4,10 @@
 
 Este projeto apresenta dois classificadores Random Forest treinados com URLs públicas: um com **8 atributos**, incluindo HTTPS, e outro com **7 atributos**, sem HTTPS. Os resultados são apresentados em um notebook acadêmico e em uma interface educativa feita com Streamlit.
 
+## Vídeo de demonstração
+
+[Assista à apresentação do Escudo Cidadão no YouTube](https://www.youtube.com/watch?v=SFd9hyRrtdI).
+
 ## Como executar
 
 **Requisitos:** Python 3.11 ou superior, preferencialmente em ambiente virtual.
@@ -47,11 +51,10 @@ Foram avaliadas **12 combinações de 3 hiperparâmetros para cada modelo**, com
 ```text
 escudo_cidadao_gs/
 ├── README.md
-├── prompts.md
 ├── ml/
 │   ├── notebook_escudo_cidadao.ipynb  # executado, com gráficos
 │   ├── RELATORIO_ML.md
-│   ├── RELATORIO_ML.pdf  # versão PDF já existente; conferir os RMs
+│   ├── RELATORIO_ML.pdf  # PDF com os RMs corrigidos
 │   ├── ANEXO_GRAFICOS.md
 │   ├── figuras/             # 8 gráficos documentados
 │   ├── requirements.txt
@@ -71,7 +74,7 @@ escudo_cidadao_gs/
 - A previsão da aplicação **não é certificação** de segurança, não checa o conteúdo ou reputação de sites e não substitui orientação especializada.
 - Os resultados são específicos desta base e desta divisão aleatória; sites novos e outras fontes podem apresentar distribuição diferente.
 - O projeto não coleta dados de usuários e **não realiza requisições** aos links informados; apenas lê o texto digitado.
-- **Requisito territorial da GS ainda não atendido:** não foi usada uma base municipal. Outros componentes de disciplinas são entregas independentes.
+- **Escopo dos dados:** o trabalho utiliza a base pública PhiUSIIL, aprovada pelo professor conforme orientação recebida pela equipe; os registros não têm recorte municipal. Outros componentes de disciplinas são entregas independentes.
 
 ## Autoria e referências
 
@@ -85,6 +88,6 @@ Trabalho acadêmico desenvolvido para a Global Solution FIAP 2026.2. Integrantes
 | Paulo Henrique Monteiro Golovanevsky | 555300 |
 | Pedro Henrique Silva Batista | 558137 |
 
-O relatório principal está em [`ml/RELATORIO_ML.md`](ml/RELATORIO_ML.md) e a coleção completa de gráficos em [`ml/ANEXO_GRAFICOS.md`](ml/ANEXO_GRAFICOS.md). **O PDF antigo pode conter RMs divergentes: usar o Markdown corrigido como referência até regenerar o PDF.**
+O relatório principal está em [`ml/RELATORIO_ML.md`](ml/RELATORIO_ML.md) e a coleção completa de gráficos em [`ml/ANEXO_GRAFICOS.md`](ml/ANEXO_GRAFICOS.md). **O arquivo PDF e o relatório Markdown utilizam os mesmos RMs corrigidos.**
 
 Dataset: *PhiUSIIL Phishing URL Dataset*, UCI Machine Learning Repository (2024), https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset. Licença: CC BY 4.0.
